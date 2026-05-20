@@ -1,0 +1,168 @@
+<?php declare(strict_types = 1);
+
+// odsl-E:\mywork\laragon\www\MohammedSA\naqliyahtak\app\Http\Controllers\Api\Company\logController.php-PHPStan\BetterReflection\Reflection\ReflectionClass-App\Http\Controllers\Api\Company\logController
+return \PHPStan\Cache\CacheItem::__set_state(array(
+   'variableKey' => 'v2-6.70.0.0-8.2.29-370b23249eaa88a6d19083322dcf012ee58781f95b1e0c4f41a8c3ba51499497',
+   'data' => 
+  array (
+    'locatedSource' => 
+    array (
+      'class' => 'PHPStan\\BetterReflection\\SourceLocator\\Located\\LocatedSource',
+      'data' => 
+      array (
+        'name' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'filename' => 'E:/mywork/laragon/www/MohammedSA/naqliyahtak/app/Http/Controllers/Api/Company/logController.php',
+      ),
+    ),
+    'namespace' => 'App\\Http\\Controllers\\Api\\Company',
+    'name' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+    'shortName' => 'logController',
+    'isInterface' => false,
+    'isTrait' => false,
+    'isEnum' => false,
+    'isBackedEnum' => false,
+    'modifiers' => 0,
+    'docComment' => NULL,
+    'attributes' => 
+    array (
+    ),
+    'startLine' => 9,
+    'endLine' => 18,
+    'startColumn' => 1,
+    'endColumn' => 1,
+    'parentClassName' => 'App\\Http\\Controllers\\Controller',
+    'implementsClassNames' => 
+    array (
+    ),
+    'traitClassNames' => 
+    array (
+    ),
+    'immediateConstants' => 
+    array (
+    ),
+    'immediateProperties' => 
+    array (
+      'logRepo' => 
+      array (
+        'declaringClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'implementingClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'name' => 'logRepo',
+        'modifiers' => 2,
+        'type' => NULL,
+        'default' => NULL,
+        'docComment' => NULL,
+        'attributes' => 
+        array (
+        ),
+        'startLine' => 11,
+        'endLine' => 11,
+        'startColumn' => 5,
+        'endColumn' => 23,
+        'isPromoted' => false,
+        'declaredAtCompileTime' => true,
+        'immediateVirtual' => false,
+        'immediateHooks' => 
+        array (
+        ),
+      ),
+    ),
+    'immediateMethods' => 
+    array (
+      '__construct' => 
+      array (
+        'name' => '__construct',
+        'parameters' => 
+        array (
+          'logRepo' => 
+          array (
+            'name' => 'logRepo',
+            'default' => NULL,
+            'type' => 
+            array (
+              'class' => 'PHPStan\\BetterReflection\\Reflection\\ReflectionNamedType',
+              'data' => 
+              array (
+                'name' => 'App\\Repository\\Api\\Company\\logRepo',
+                'isIdentifier' => false,
+              ),
+            ),
+            'isVariadic' => false,
+            'byRef' => false,
+            'isPromoted' => false,
+            'attributes' => 
+            array (
+            ),
+            'startLine' => 12,
+            'endLine' => 12,
+            'startColumn' => 33,
+            'endColumn' => 48,
+            'parameterIndex' => 0,
+            'isOptional' => false,
+          ),
+        ),
+        'returnsReference' => false,
+        'returnType' => NULL,
+        'attributes' => 
+        array (
+        ),
+        'docComment' => NULL,
+        'startLine' => 12,
+        'endLine' => 14,
+        'startColumn' => 5,
+        'endColumn' => 5,
+        'couldThrow' => false,
+        'isClosure' => false,
+        'isGenerator' => false,
+        'isVariadic' => false,
+        'modifiers' => 1,
+        'namespace' => 'App\\Http\\Controllers\\Api\\Company',
+        'declaringClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'implementingClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'currentClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'aliasName' => NULL,
+      ),
+      '__invoke' => 
+      array (
+        'name' => '__invoke',
+        'parameters' => 
+        array (
+        ),
+        'returnsReference' => false,
+        'returnType' => NULL,
+        'attributes' => 
+        array (
+        ),
+        'docComment' => NULL,
+        'startLine' => 15,
+        'endLine' => 17,
+        'startColumn' => 5,
+        'endColumn' => 5,
+        'couldThrow' => false,
+        'isClosure' => false,
+        'isGenerator' => false,
+        'isVariadic' => false,
+        'modifiers' => 1,
+        'namespace' => 'App\\Http\\Controllers\\Api\\Company',
+        'declaringClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'implementingClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'currentClassName' => 'App\\Http\\Controllers\\Api\\Company\\logController',
+        'aliasName' => NULL,
+      ),
+    ),
+    'traitsData' => 
+    array (
+      'aliases' => 
+      array (
+      ),
+      'modifiers' => 
+      array (
+      ),
+      'precedences' => 
+      array (
+      ),
+      'hashes' => 
+      array (
+      ),
+    ),
+  ),
+));

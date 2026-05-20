@@ -1,0 +1,25 @@
+includes:
+    - vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    paths:
+        - app
+
+    level: 5
+
+    tmpDir: build/phpstan
+
+    excludePaths:
+        - vendor
+        - storage
+
+    ignoreErrors:
+        # Ignore dynamic property access on resources
+        - '#Access to an undefined property App\\Http\\Resources\\.*\$entity_data#'
+        # Ignore PHPDoc type certainty issues (BackedEnum/string comparisons)
+        - '#Cannot access property \$value on string#'
+        - '#Call to function is_object\(\) with string will always evaluate to false#'
+        - '#Call to function method_exists\(\) with \*NEVER\* and .value. will always evaluate to true#'
+        - '#Result of && is always false#'
+        - '#Access to an undefined property Illuminate\\Database\\Eloquent\\Model#'
+        - '#Using nullsafe property access.*on left side of \?\? is unnecessary#'
