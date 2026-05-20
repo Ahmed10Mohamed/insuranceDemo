@@ -22,6 +22,8 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/build/phpstan/cache
+/bootstrap/cache
 /public/deploy.log
 deploy.php
 public/deploy.php
