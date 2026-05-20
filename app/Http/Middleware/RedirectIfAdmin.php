@@ -28,13 +28,10 @@ class RedirectIfAdmin
             if(admin()->user_type_id == 1){
                 // this userType Admin
                 return redirect()->route('Admin-Dashboard');
-            }elseif(admin()->user_type_id == 2){
-                // this userType Driver
-                return redirect()->route('Driver-Dashboard');
     
             }else{
                   // this userType Vendor
-                 return redirect()->route('Vendor-Dashboard');
+                 return redirect()->route('Company-Dashboard');
     
             }
         }
